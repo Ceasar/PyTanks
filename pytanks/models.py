@@ -54,6 +54,7 @@ class Gun(TankPart):
         super(Gun, self).__init__(tank, heading)
         self.heat = heat
 
+
 class Radar(TankPart):
     '''A tank radar.'''
     objects = RadarManager()

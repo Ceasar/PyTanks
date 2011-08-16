@@ -37,4 +37,3 @@ class Projectile(Rotatable):
         super(Projectile, self).__init__(heading, angular_velocity)
         self.position = Vector(position)
         self.velocity = velocity
-

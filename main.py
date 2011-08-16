@@ -31,6 +31,7 @@ class Controller(object):
                 elif event.key == pygame.K_P:
                     self.unpaused = not self.unpaused
 
+
     def update(self, context):
         for manager in self.managers:
             manager.update_all(context)
